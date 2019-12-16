@@ -100,7 +100,7 @@ setResult("Nuclei count", result_output, nuclei_count[result_output]);
 selectWindow("Results");
 saveAs("Text", nucleiDir + "Summary.xls");
 
-// close all windows & check for "special" windows
+// close all windows
 run("Close All");
 
 // indicate end of macro processing in the log file by a text   
