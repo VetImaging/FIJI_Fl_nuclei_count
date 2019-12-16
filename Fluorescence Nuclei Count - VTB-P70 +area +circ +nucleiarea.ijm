@@ -1,5 +1,6 @@
 /* Macro for counting nuclei on 8bit-TIFs  - SK 2019-09 VTB
- *  3D-Histech scans, converted with caseconverter to 1:2 tiled Tifs / jpg compression 85 / grayscale
+ * Input: stained dapi or other nuclei-staining (e.g. Ki67); scanned with 3D-Histech Scan II slidescanner; converted with 3DHISTECH SlideConverter to 1:2 tiled Tifs / jpg compression 85 / grayscale
+ * Output: excel-list with counted nuclei between 10 and 200µm²
  */
 
 setForegroundColor(0, 0, 255);
